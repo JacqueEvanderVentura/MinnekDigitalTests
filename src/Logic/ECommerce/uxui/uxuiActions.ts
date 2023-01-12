@@ -1,0 +1,5 @@
+export enum uxuiActions {
+  SHOW_MODAL = "SHOW-MODAL",
+  CLOSE_MODAL = "CLOSE-MODAL",
+	SET_ACTIVE_SLIDES = "SET-ACTIVE-SLIDES",
+}

@@ -1,0 +1,20 @@
+form{
+	div{
+		@apply flex flex-col
+	}
+	button{
+		width: fit-content;
+		padding: 1vw;
+	}
+}
+.modal {
+  @apply fixed inset-y-0 inset-x-0 bg-gray-900 bg-opacity-50 flex flex-col justify-center items-center;
+  .card {
+    @apply rounded-2xl p-10 border border-gray-50 shadow-lg bg-white flex justify-center flex-col;
+    input,
+    select,
+    textarea {
+      @apply border border-black block;
+    }
+  }
+}
